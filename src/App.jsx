@@ -5,12 +5,13 @@ import React from "react";
 // import Counter from "./components/Counter";
 import UserProfile from "./components/UserProfile";
 import UpdateUser from "./components/UpdateUser";
+import CounterRed from "./components/CounterRed";
 
 const App = () => {
   return (
     <div>
-      <UserProfile />
-      <UpdateUser />
+      <CounterRed />
+      {/* <UpdateUser /> */}
     </div>
   );
 };
