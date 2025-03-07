@@ -6,12 +6,15 @@ import React from "react";
 import UserProfile from "./components/UserProfile";
 import UpdateUser from "./components/UpdateUser";
 import CounterRed from "./components/CounterRed";
+import UseRef from "./hooks/UseRef";
+import FocusInput from "./components/FocusInput";
+import Timer from "./components/Timer";
 
 const App = () => {
   return (
     <div>
-      <CounterRed />
-      {/* <UpdateUser /> */}
+      <FocusInput />
+      <Timer />
     </div>
   );
 };
